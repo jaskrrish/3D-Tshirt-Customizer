@@ -1,12 +1,12 @@
 ![alt text](image.png)
 
-### Introduction
+# Introduction
 
 Create your own style with our new 3D Swag Customization App. Pick colors, add logos, and try AI designs to make your virtual swag unique. Built using React.js, Three.js, and OpenAI to show the usage of a 3D world with AI
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
 
-### Tech Stack
+# Tech Stack
 
 - React.js
 - Three.js
@@ -20,7 +20,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 - Framer Motion
 - Valtio
 
-### Features
+# Features
 
 👉 3D Swag Generation: Generate unique 3D shirts/swag items dynamically
 
