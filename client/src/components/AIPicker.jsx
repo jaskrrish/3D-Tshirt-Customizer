@@ -6,7 +6,7 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
   return (
     <div className="aipicker-container">
       <textarea
-        placeholder="Ask AI..."
+        placeholder="AI feature not available for now."
         rows={5}
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
@@ -21,19 +21,19 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
           />
         ) : (
           <>
-            <CustomButton
+            {/* <CustomButton
               type="outline"
               title="AI Logo"
               handleClick={() => handleSubmit("logo")}
               customStyles="text-xs"
-            />
+            /> */}
 
-            <CustomButton
+            {/* <CustomButton
               type="filled"
               title="AI Full"
               handleClick={() => handleSubmit("full")}
               customStyles="text-xs"
-            />
+            /> */}
           </>
         )}
       </div>
